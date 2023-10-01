@@ -1,3 +1,6 @@
+The Main Front-end for my review website. Built Using Angular and CSS. Heavy usage of Bootstrap for design and responsivity. The front end reflects changes made in the database in real-time.
+
+
 # VinVue
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
