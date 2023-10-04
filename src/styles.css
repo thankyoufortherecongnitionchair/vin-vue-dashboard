@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-color: #232323;
+    --secondary-color: #610094;
+    --body-text-color: #333;
+    --footer-nav-color: #f5f5f5;
+    --background-color: #343434;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    color: var(--body-text-color);
+}
+
+.mainbody {
+    /* background-color:#aeaeb4;
+    ; */
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,18 @@
+.app-body {
+    
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .app-body {
+        /* margin-top: 180px; */
+    }
+}
+
+@media only screen and (max-width:342px) {
+
+    .app-body {
+        /* margin-top: 225px; */
+    }
+}
