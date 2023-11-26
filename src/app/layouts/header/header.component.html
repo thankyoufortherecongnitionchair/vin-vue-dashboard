@@ -1,0 +1,73 @@
+<header class="navbar navbar-expand-lg fixed-top">
+  <!-- <div class="container justify-content-center">
+    <a href="#" class="site-logo">Vinyl Vue //testing mode</a> 
+  </div> -->
+
+  <img
+    src="\assets\vinyl-vector.png"
+    routerLink="/"
+    alt="rotating vinyl"
+    class="vinyl"
+  />
+  <div class="header">
+    <!-- <h1 class="main-heading" routerLink="/">Vinyl-Vue</h1> -->
+    <div class="logo"><img src="\assets\logo.svg" class="logo" /></div>
+
+    <div class="about">
+      <p class="text-white shortdesc">
+        A collection of music reviews written by Aniruddh, curated and updated
+        regularly.
+      </p>
+    </div>
+
+    <a href="https://www.instagram.com/aniruddh_.tiwari/" target="_blank">
+      <img src="/assets/insta.png" alt="socials" class="socials" />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/aniruddh-tiwari-7ab938134/"
+      target="_blank"
+    >
+      <img src="/assets/linkedin.png" alt="socials" class="socials" />
+    </a>
+    <a href="https://medium.com/@tiwarianiruddh123" target="_blank">
+      <img
+        src="/assets/medium.png"
+        alt="socials"
+        class="socials"
+        target="_blank"
+      />
+    </a>
+
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        data-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Navigation
+      </button>
+      <div class="dropdown-menu">
+        <!-- <a class="dropdown-item" href="#">Action</a> -->
+        <a
+          class="nav-link"
+          onClick="document.getElementById('genres').scrollIntoView({behavior:'smooth'});"
+          >Genres / Featured</a
+        >
+
+        <a
+          class="nav-link"
+          onClick="document.getElementById('aboutme').scrollIntoView({behavior:'smooth'});"
+          routerLink="/aboutus"
+          >About</a
+        >
+        <a
+          class="nav-link"
+          onClick="document.getElementById('subscribe').scrollIntoView({behavior:'smooth'});"
+          >Subscribe!</a
+        >
+      </div>
+    </div>
+    <br />
+  </div>
+</header>

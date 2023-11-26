@@ -20,6 +20,7 @@ import { CommentsListComponent } from './comments/comments-list/comments-list.co
 import { TilesComponent } from './layouts/tiles/tiles.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
     TilesComponent,
 
     AboutusComponent,
+     CommentsComponent,
   ],
   imports: [
     FormsModule,

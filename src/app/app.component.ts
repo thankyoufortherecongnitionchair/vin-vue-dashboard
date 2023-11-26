@@ -10,4 +10,8 @@ export class AppComponent {
   constructor(private titleService: Title) {
     this.titleService.setTitle('VIN-VUE');
   }
+
+  onActivate(event: any) {
+    window.scrollTo(0, 400);
+  }
 }

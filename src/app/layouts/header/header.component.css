@@ -1,0 +1,139 @@
+header {
+
+    height: 90vh;
+    overflow-x: hidden;
+}
+
+.shortdesc {
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: justify;
+
+}
+
+
+.vinyl {
+    cursor: grab;
+    height: 100%;
+
+    left: 0;
+    transform: translate(-50%);
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: #d0bdfd;
+    }
+
+    25% {
+        background-color: #c78de9;
+    }
+
+    50% {
+        background-color: #ddcbff;
+    }
+
+    75% {
+        background-color: #b16adb;
+    }
+
+    100% {
+        background-color: #d0bdfd;
+    }
+
+}
+
+header {
+
+    position: relative;
+    height: 90vh;
+    background-color: #ff5733;
+    animation: changeBackgroundColor 10s linear infinite;
+}
+
+.vinyl {
+    height: 70%;
+    left: 0;
+    transform: translateX(-50%) rotate(0deg);
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+.header {
+    padding: 10px;
+
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    position: absolute;
+    padding: 10px 40px 10px 40px;
+    margin-left: 30%;
+
+
+}
+
+@media screen and (max-width:363px) {
+    .header {
+        margin-left: 50px;
+    }
+
+
+}
+
+.main-heading {
+    overflow-x: hidden;
+    font-size: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    mix-blend-mode: difference;
+
+
+}
+
+.nav-link {
+    cursor: pointer;
+    animation: none;
+    color: black;
+    font-weight: medium;
+}
+
+.socials {
+
+    width: 45px;
+    height: 45px;
+    backdrop-filter: transparent;
+    padding: 4px;
+    margin-bottom: 18px;
+
+}
+
+.btn {
+    background-color: rgb(137, 82, 226);
+    border: none;
+
+}

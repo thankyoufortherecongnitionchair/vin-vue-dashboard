@@ -3,7 +3,7 @@
 <app-category-navbar></app-category-navbar>
 
 <div class="app-body">
-  <router-outlet></router-outlet>
+  <router-outlet (activate)="onActivate($event)"></router-outlet>
 </div>
 
 <div class="container mt-5 mb-5">
