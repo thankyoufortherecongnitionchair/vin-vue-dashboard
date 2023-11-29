@@ -14,7 +14,8 @@ Follow the instructions given below to implement this on your own systems. Built
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 Run NPM INSTALL on the CLI to handle dependencies.
 ## Development server
-
+Execute 'npm i' after cloning to install the various dependencies. Replace APIs with your own firebase APIs, and intialize documents on your firebase to execute the program on your own systems.
+Basic App architecture as seen in images above.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
