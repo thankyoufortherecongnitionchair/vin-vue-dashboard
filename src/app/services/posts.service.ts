@@ -25,7 +25,6 @@ export class PostsService {
     const filePath = `postIMG/${Date.now()}`;
 
     this.storage.upload(filePath, selectedImg).then(() => {
-     
       this.storage
         .ref(filePath)
         .getDownloadURL()
@@ -46,7 +45,7 @@ export class PostsService {
       .add(postData)
       .then((docRef) => {
         this.toastr.success('data inserted successfully');
-       
+
         this.router.navigate(['/post']);
       });
   }
