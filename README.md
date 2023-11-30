@@ -1,4 +1,10 @@
-This Repo contains the backend implementation of my reviews hosting website. Implemented mainly using Angular for the Front-end (Dashboard view), and TypeScript used to handle all of the transaction logic (CRUD operations) and real-time user authentication and content validation. 
+This Repo contains the backend implementation of my reviews hosting website. Implemented mainly using Angular for the Front-end (Dashboard view), and TypeScript was used to handle all of the transaction logic (CRUD operations) and real-time user authentication and content validation. 
+
+![image](https://github.com/thankyoufortherecongnitionchair/vin-vue-dashboard/assets/77891681/9bb811de-b38a-4408-92ce-ab36af9f0207)
+
+![image](https://github.com/thankyoufortherecongnitionchair/vin-vue-dashboard/assets/77891681/94b4fdc1-7c97-4be1-ab03-24eb9ab3adc0)
+
+![image](https://github.com/thankyoufortherecongnitionchair/vin-vue-dashboard/assets/77891681/790ad781-4665-4c51-a8ce-643f281eb767)
 
 Follow the instructions given below to implement this on your own systems. Built using Angular 16 and TypeScript.
 
@@ -6,9 +12,10 @@ Follow the instructions given below to implement this on your own systems. Built
 # VinVueDashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
-
+Run NPM INSTALL on the CLI to handle dependencies.
 ## Development server
-
+Execute 'npm i' after cloning to install the various dependencies. Replace APIs with your own firebase APIs, and intialize documents on your firebase to execute the program on your own systems.
+Basic App architecture as seen in images above.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
