@@ -1,4 +1,5 @@
 This Repo contains the backend implementation of my reviews hosting website. Implemented mainly using Angular for the Front-end (Dashboard view), and TypeScript was used to handle all of the transaction logic (CRUD operations) and real-time user authentication and content validation. 
+![image](https://github.com/thankyoufortherecongnitionchair/vin-vue-dashboard/assets/77891681/73f4c4db-f000-4426-8da0-7aa4739610aa)
 
 ![image](https://github.com/thankyoufortherecongnitionchair/vin-vue-dashboard/assets/77891681/9bb811de-b38a-4408-92ce-ab36af9f0207)
 
